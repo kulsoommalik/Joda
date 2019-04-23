@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171939065736",
+    "firebase_url": "https://jora-46c08.firebaseio.com",
+    "project_id": "jora-46c08",
+    "storage_bucket": "jora-46c08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171939065736:android:f18c005843c1e31c",
+        "android_client_info": {
+          "package_name": "com.example.jora_shoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171939065736-0r8qcjlu0uem5fa0t5rpgeprge6lpfqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jora_shoppingapp",
+            "certificate_hash": "2116e968f18a413a3faabb51161fde78751acc7e"
+          }
+        },
+        {
+          "client_id": "171939065736-5mq4n3678bfpp9qdg7g8tp3rrqpedoga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJfCCV5rXAj0n-cv5w1u5KeTCMS2DmeYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171939065736-5mq4n3678bfpp9qdg7g8tp3rrqpedoga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

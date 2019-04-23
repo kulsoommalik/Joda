@@ -4,9 +4,18 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
+
+import static android.support.constraint.Constraints.TAG;
 
 public class ImageAdapter extends PagerAdapter {
 
@@ -14,9 +23,11 @@ public class ImageAdapter extends PagerAdapter {
     ImageAdapter(Context context) {
         this.mContext = context;
     }
+
+
     private int[] sliderImageId = new int[]{
 
-            //images from firbase
+
             //for now in drawable folder
             R.drawable.book, R.drawable.mission,R.drawable.possible, R.drawable.skills
     };
