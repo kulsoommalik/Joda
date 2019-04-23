@@ -60,7 +60,7 @@ public class Home extends Fragment {
                                 Log.d(TAG, document.getId() + " => " + document.getData());
                             }
                         } else {
-                            Log.d(TAG, "Error getting documents: ", task.getException());
+                            Log.d(TAG, "Error getting documentssdsews: ", task.getException());
                         }
                     }
                 });
