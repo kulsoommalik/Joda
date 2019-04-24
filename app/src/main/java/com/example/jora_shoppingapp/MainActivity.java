@@ -37,6 +37,24 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.main_tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        //setting icon of each fragment in tab
+        for (int i = 0; i < tabLayout.getTabCount(); i++) {
+            if(i == 0){
+                tabLayout.getTabAt(i).setIcon(R.drawable.home);
+            }
+            else if(i == 1){
+                tabLayout.getTabAt(i).setIcon(R.drawable.category);
+            }
+            else if(i == 2){
+                tabLayout.getTabAt(i).setIcon(R.drawable.cart);
+            }
+            else if(i == 3){
+                tabLayout.getTabAt(i).setIcon(R.drawable.services);
+            }
+        }
+        //-----------------------------------------
+
     }
 
 }

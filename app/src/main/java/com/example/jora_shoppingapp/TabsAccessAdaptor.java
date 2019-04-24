@@ -1,6 +1,8 @@
 package com.example.jora_shoppingapp;
 
+import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -11,6 +13,10 @@ public class TabsAccessAdaptor extends FragmentPagerAdapter {
     public TabsAccessAdaptor(FragmentManager fm) {
         super(fm);
     }
+
+    Drawable myDrawable;
+    String title;
+
 
     @Override
     public Fragment getItem(int i) {
@@ -44,29 +50,31 @@ public class TabsAccessAdaptor extends FragmentPagerAdapter {
         return 4;
     }
 
-    @Nullable
-    @Override
-    public CharSequence getPageTitle(int position) {
 
-        switch(position){
-
-            case 0:
-                return "Home";
-
-            case 1:
-                return "Category";
-
-            case 2:
-                return "Cart";
-
-            case 3:
-                return "Services";
-
-            default:
-                return null;
-
-        }
-    }
+// title of fragments in tab
+//    @Nullable
+//    @Override
+//    public CharSequence getPageTitle(int position) {
+//
+//        switch(position){
+//
+//            case 0:
+//                return "Home";
+//
+//            case 1:
+//                return "Category";
+//
+//            case 2:
+//                return "Cart";
+//
+//            case 3:
+//                return "Services";
+//
+//            default:
+//                return null;
+//
+//        }
+//    }
 
 
 }
